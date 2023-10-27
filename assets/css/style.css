@@ -1114,6 +1114,55 @@ main {
   line-height: 1.6;
 }
 
+/* Add this CSS to your stylesheet */
+
+/* Set full width for blog content */
+.blog-content {
+  max-width: 100%;
+}
+
+/* Center content in the blog */
+.blog-content {
+  margin: 0 auto;
+}
+
+/* Adjust image width to fill the container */
+.blog-banner-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* Set max width for text content */
+.blog-text {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+/* Center text content within blog item */
+.blog-item-title,
+.blog-text {
+  text-align: center;
+}
+
+/* Remove margin from list items */
+.blog-text ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Add space between list items */
+.blog-text ul li {
+  margin-bottom: 10px;
+}
+
+/* Ensure images within text are responsive */
+.blog-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 
 
